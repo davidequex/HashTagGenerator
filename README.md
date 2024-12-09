@@ -1,4 +1,6 @@
 SIMPLE HASHTAG GENERATOR PROGRAM MEANT FOR SOCIAL MEDIA
+
+
 MENU
 <img width="1470" alt="Screenshot 2024-12-09 at 12 19 48 PM" src="https://github.com/user-attachments/assets/93ab5a48-45e9-43d0-af96-1981e6d188cc">
 
