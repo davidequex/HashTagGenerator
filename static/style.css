@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FAF9F6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 2em;
+}
+
+.file-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.submit-btn {
+    background-color: #ed486f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #e8738f;
+}
+
+#image-preview-container {
+    margin-top: 20px;
+}
+
+#image-preview {
+    max-width: 350px;
+    max-height: 350px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-top: 15px;
+    object-fit: cover;
+}
+
+#hashtag-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.hashtag-btn {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 12px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hashtag-btn:hover {
+    background-color: #e4e4e4;
+}
+
+.hashtag-btn.selected {
+    background-color: #FAF9F6;
+    color: #000000;
+    border: 1px solid #FAF9F6;
+}
+
+#selected-hashtags {
+    width: 100%;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    resize: none;
+    box-sizing: border-box;
+}
